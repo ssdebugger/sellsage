@@ -1,0 +1,13 @@
+# Allow all user agents.
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: https://www.sellsage.com/2020/
+Disallow: https://www.sellsage.com/2021/
+
+
+# User agent "Googlebot" should not crawl the `http://example.com/nogooglebot/` folder or any of its subdirectories.
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+Sitemap: https://www.sellsage.com/sitemap.xml
